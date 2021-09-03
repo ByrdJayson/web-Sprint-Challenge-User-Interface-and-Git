@@ -147,7 +147,7 @@ footer nav a {
 
 .header {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
     padding-bottom: 2rem;;
 }
@@ -158,9 +158,10 @@ footer nav a {
 
 .header a {
     text-decoration: none;
-    align-content: flex-end;
-    justify-items: space-around;
+    width: 100%;
+    padding-left: 2rem;
 }
+
 
 
 
