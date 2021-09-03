@@ -145,6 +145,11 @@ footer nav a {
     text-decoration: none;
 }
 
+header {
+    border: 3px solid green;
+    width: 100%;
+}
+
 .header {
     display:flex;
     justify-content: center;
@@ -175,7 +180,8 @@ footer nav a {
 }
 
 .about-nav {
-    width: 60%;
+    width: 75%;
+    background-color: orange;
 }
 
 .aboutpic {
@@ -186,6 +192,7 @@ footer nav a {
 .aboutabout {
     padding: 1.8rem;
     width: 100%;
+    border-bottom: 2px dotted black;
 }
 
 .border {
@@ -205,8 +212,9 @@ footer nav a {
 .about-gallery {
     border: 3px solid blue;
     display: flex;
-    justify-items: space-evenly;
+    justify-items: space-between;
     width: 100%;
+    padding: 2rem;
 }
 
 .about-btn {
