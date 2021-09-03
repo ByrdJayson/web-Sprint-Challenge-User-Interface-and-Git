@@ -145,7 +145,16 @@ footer nav a {
     text-decoration: none;
 }
 
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.header-img {
+    flex-direction: column;
+
+}
 
 header nav div {
     width: 100%;
@@ -154,7 +163,7 @@ header nav div {
 header nav {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 60%;
 }
 
@@ -167,13 +176,51 @@ nav div {
     text-decoration: none;
     color: black;
     justify-content: space-evenly;
-    width:100%;
+    width: 60%;
+    flex-flow: nowrap;
 }
 
 .nav-links a {
     text-decoration: none;
+    
 }
 
-.header {
-    width: 100%;
+#boxone {
+    background-color:teal;
+}
+
+#boxtwo {
+    background-color: gold;
+}
+
+#boxthree {
+    background-color: cadetblue;
+}
+
+#boxfour {
+    background: coral;
+}
+
+#boxfive {
+    background-color: crimson;    
+}
+
+#boxsix {
+    background-color: forestgreen;
+}
+
+#boxseven {
+    background-color: darkorchid;
+}
+
+#boxeight {
+    background-color: hotpink;
+}
+
+#boxnine {
+    background-color: indigo;
+}
+
+#boxten {
+    background-color: dodgerblue;
 }
