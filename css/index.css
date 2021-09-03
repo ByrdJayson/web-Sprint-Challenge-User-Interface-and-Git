@@ -162,10 +162,6 @@ footer nav a {
     padding-left: 2.4rem;
 }
 
-/* .banner {
-    padding-bottom: 1.3rem;
-} */
-
 .headerabout {
     width: 100%;
     display: flex;
@@ -220,48 +216,6 @@ footer nav a {
     justify-items: space-evenly;
     padding: 2rem;
 }
-
-
-/* .header {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-}
-
-.header-img {
-    flex-direction: column;
-
-}
-
-nav {
-    width: 100%;
-}
-
-header nav div {
-    width: 100%;
-}
-
-header nav {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    width: 100%;
-}
-
-
-.nav-links {
-    text-decoration: none;
-    color: black;
-    justify-content: space-evenly;
-    width: 60%;
-    flex-flow: nowrap;
-}
-
-.nav-links a {
-    text-decoration: none;
-    
-} */
 
 #boxone {
     background-color:teal;
