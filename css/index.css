@@ -159,11 +159,28 @@ footer nav a {
 .header a {
     text-decoration: none;
     width: 100%;
-    padding-left: 2rem;
+    padding-left: 2.4rem;
 }
 
+.banner {
+    padding-bottom: 1.3rem;
+}
 
+.headerabout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
+}
+
+.about-nav {
+    width: 39%;
+}
+
+.aboutpic {
+    display: flex;
+    justify-content: center;
+}
 
 /* .header {
     width: 100%;
