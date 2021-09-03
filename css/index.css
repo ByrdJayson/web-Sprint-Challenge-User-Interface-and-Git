@@ -157,7 +157,17 @@ nav div {
     justify-content: space-evenly;
 }
 
-.nav-links a {
+.nav-links {
     text-decoration: none;
     color: black;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+div {
+    width: 100%;
 }
