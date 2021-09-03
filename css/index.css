@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0; /* SET BACK TO 0! */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -77,6 +77,8 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 2rem;
+    padding-left: 0;
 }
 
 .top-content .text-container {
@@ -143,4 +145,134 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+header {
+    /* border: 3px solid green; */
+    width: 100%;
+}
+
+.header {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+}
+
+.banner {
+    width: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    width: 100%;
+    padding-left: 2.4rem;
+}
+
+.headerabout {
+    width: 60%;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: purple; */
+}
+
+.about-nav {
+    width: 100%;
+    /* background-color: orange; */
+}
+
+.aboutpic {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutpage-about {
+    padding: 1.8rem;
+    width: 100%;
+    border-bottom: 2px dotted black;
+}
+
+.border {
+    width: 100%;
+}
+
+.about-flex {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-items: space-between;
+    /* border: 3px solid red; */
+    border-bottom: 2px dotted black;
+    padding: 1rem;    
+}
+
+.about-gallery {
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-items: space-between;
+    width: 100%;
+    
+}
+
+.about-btn {
+    border: 2px solid black;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: .75rem;
+    margin-top: .75rem;
+}
+
+.about-flex h2 {
+    margin-top: .75rem;
+}
+
+.about-bottom {
+    padding: 2rem;
+}
+
+#boxone {
+    background-color:teal;
+}
+
+#boxtwo {
+    background-color: gold;
+}
+
+#boxthree {
+    background-color: cadetblue;
+}
+
+#boxfour {
+    background: coral;
+}
+
+#boxfive {
+    background-color: crimson;    
+}
+
+#boxsix {
+    background-color: forestgreen;
+}
+
+#boxseven {
+    background-color: darkorchid;
+}
+
+#boxeight {
+    background-color: hotpink;
+}
+
+#boxnine {
+    background-color: indigo;
+}
+
+#boxten {
+    background-color: dodgerblue;
 }
