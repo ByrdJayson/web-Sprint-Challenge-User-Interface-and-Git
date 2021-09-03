@@ -204,14 +204,14 @@ header {
     display: flex;
     flex-flow: column wrap;
     width: 50%;
-    justify-items: space-evenly;
-    border: 3px solid red;
+    justify-items: space-between;
+    /* border: 3px solid red; */
     border-bottom: 2px dotted black;
     padding: 1rem;    
 }
 
 .about-gallery {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: flex;
     justify-items: space-between;
     width: 100%;
