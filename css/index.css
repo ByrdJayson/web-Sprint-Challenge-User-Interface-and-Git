@@ -174,13 +174,43 @@ footer nav a {
 }
 
 .about-nav {
-    width: 39%;
+    width: 60%;
 }
 
 .aboutpic {
     display: flex;
     justify-content: center;
 }
+
+.aboutabout {
+    padding: 1.8rem;
+    width: 100%;;
+}
+
+.border {
+    width: 100%;
+}
+
+.about-flex {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.about-gallery {
+    display: flex;
+    justify-content: space-around ;
+}
+
+.about-btn {
+    border: 2px solid black;
+    width: 10rem;
+    border-radius: 10%;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
 
 /* .header {
     width: 100%;
